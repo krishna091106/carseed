@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>INTRO</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <header id="header">
+        <div>
+            <div>
+                <video class="bgvideo" src="VN20240210_151027.mp4" autoplay loop muted></video>
+                <div class="logo" data-aos="fade-up">
+                    <img src="CarLuxe.png" alt="logo" data-aos="fade-up">
+                    <a href="login.php" data-aos="fade-up">LOGIN</a>
+                </div>
+                <h1 class="text1" data-aos="fade-up">LET'S KEEP IT SIMPLE.</h1>
+                <p class="p1" data-aos="fade-up">We are the best when it comes to Exotic Cars.</p>
+                <h1 class="text2" data-aos="fade-up">DODGE CHALLENGER</h1>
+                <div class="buttonbox" data-aos="fade-up">
+                    <a class="button" href="page1.html">GET START BUYING</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <footer>
+        <div class="item1">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eaque.</h1>
+            <div class="display1">
+                <img src="monitor.png" alt="monitor">
+            </div>
+        </div>
+
+        <div class="item2">
+            <div class="display2">
+                <img src="laptop.png" alt="laptop">
+            </div>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eaque.</h1>
+        </div>
+
+        <div class="item3">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <div class="display3">
+                <img src="Phone.png" alt="phone">
+            </div>
+        </div>
+    </footer> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+       /* document.addEventListener('contextmenu', event => {
+            event.preventDefault();
+        });*/
+
+
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none"
+        })
+
+        
+        AOS.init(
+            {
+                offset: 200,
+                duration: 1000
+            }
+        );
+
+    </script>
+</body>
+
+</html>
